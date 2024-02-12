@@ -7,5 +7,9 @@ public class Swapping
     String third_student = "Rocky";
 
     System.out.println("The original students are "+ first_student +", " + second_student +", and "+ third_student);
+    
+    first_student = third_student;
+
+    System.out.println("The newly swapped students are "+ first_student +", " + second_student +", and "+ third_student);
   }
 }
