@@ -8,6 +8,7 @@ public class Swapping
 
     System.out.println("The original students are "+ first_student +", " + second_student +", and "+ third_student);
     
+    String temp = first_student;
     first_student = third_student;
 
     System.out.println("The newly swapped students are "+ first_student +", " + second_student +", and "+ third_student);
